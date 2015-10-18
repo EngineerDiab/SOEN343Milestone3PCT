@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp>
+  <information>
+    <title>Pie</title>
+    <vendor>Kalimetrix</vendor>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.4+"/>
+    <jar href="logiPie.jar" main="true"/>
+  </resources>
+    <applet-desc
+      name="Pie"
+      width="500" height="250"
+      main-class="telelogicPieK">
+    </applet-desc>
+  <security>
+    <sandbox/>
+  </security>
+</jnlp>
+    
